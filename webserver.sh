@@ -10,9 +10,11 @@ sudo systemctl enable httpd
 sudo systemctl status httpd
 cd basicshell
 mkdir shell
-cd shell
 touch shell.txt
-ls
+cat > shell1.txt
+less shell1.txt
+more shell1.txt
+ls -l shell.txt shell1.txt
 # creating the html landing page
 cd /var/www/html/
 echo '<!DOCTYPE html>' > index.html
