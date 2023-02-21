@@ -2,13 +2,11 @@
 # package updates
 sudo yum check-update
 sudo yum update
-sudo yum -y install apache2
 sudo yum -y install git
 sudo yum -y install httpd
 sudo systemctl start httpd
 sudo systemctl enable httpd
 sudo systemctl status httpd
-cd basicshell
 mkdir shell
 touch shell.txt
 cat > shell1.txt
